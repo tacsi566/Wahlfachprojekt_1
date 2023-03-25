@@ -1,4 +1,4 @@
-# Wahlfachprojekt_1
+# Building a LoRaWAN network & replay attack
 
 In this project we build a LoRaWAN network with one gateway and end-node which we connect to TTN(=The Things Network). After that we attempt a replay attack using an SDR(=Software Defined Radio)
 
