@@ -36,13 +36,20 @@ Set the rights for your username to be able to flash the application on the boar
 
 ```sudo usermod -a -G dialout <username>```
 
-Follow to tutorial on https://wiki.elvis.science/index.php?title=LoRaWAN_/_Riot-OS_Setup and see if you can flash the Hello World example. Also you need to register the gateway on the TTN website.
+Follow to tutorial on https://wiki.elvis.science/index.php?title=LoRaWAN_/_Riot-OS_Setup and see if you can flash the Hello World example. Useful links:
+https://www.thethingsindustries.com/docs/gateways/models/thethingsindoorgateway/
+https://www.thethingsindustries.com/docs/devices/adding-devices/
 
-## Flashing the modified LoRa example code in the repo
+
+
+## Flashing the modified LoRa example code in the repo and explanation
+
+Before we flash a small explanation to the code. The X-Nucleo IKSO1A2 board has a sensor named HTS221 which can measure the temperature and relative humidity. The IKSO1A2 interfaces with our STM32 board using the I2C protocol. The STM32 and IKSO1A2 are connected with the Arduino Uno R3 connectors.
 
 ```cd myRIOT/examples/lorawan```<br>
 ```make BOARD=b-l072z-lrwan1```<br>
 ```make BOARD=b-l072z-lrwan1 flash term```
+
 
 
 
