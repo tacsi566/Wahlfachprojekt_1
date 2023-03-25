@@ -16,6 +16,7 @@ In this project we build a LoRaWAN network with one gateway and end-node which w
 
 This tutorial is based on this wiki page https://wiki.elvis.science/index.php?title=LoRaWAN_/_Riot-OS_Setup. You can either follow along there or take a few shortcuts with the provided files. If you clone this repo you have every file needed to flash the microcontroller.
 
+## Steps
 To install the needed packages easily just make the packages.sh file executeable and execute <br>
 ```sudo chmod +x packages.sh``` <br>
 ```./packages.sh```
